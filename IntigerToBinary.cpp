@@ -18,7 +18,7 @@ int Dimension(int number) {
 // this array will contain our binary number
 void Positive(int number, int binary[], int dimension){
     for(int i = dimension - 1; i >= 0; i--){
-        binary[i]= number % 2;
+        binary[i] = number % 2;
         number /= 2;
     }
 }
