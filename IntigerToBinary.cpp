@@ -62,16 +62,16 @@ int main() {
     cin>>number;
 
     int dimension = Dimension(number);
-	int binary[dimension];
+    int binary[dimension];
 
     if(number < 0){
         number = abs(number);
         Positive(number, binary, dimension);
         Negative(number, binary, dimension);
-		Print(-number, binary, dimension);
+	Print(-number, binary, dimension);
     }else{
         Positive(number, binary, dimension);
-		Print(number, binary, dimension);
+	Print(number, binary, dimension);
     }
 
 
